@@ -5,7 +5,7 @@ then
     exit
 fi
 
-echo $CONFIG_FILE_VALUE > /config/$CONFIG_FILE_NAME
+echo $CONFIG_FILE_VALUE > /data/$CONFIG_FILE_NAME
 
 while true
 do
