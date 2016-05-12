@@ -4,6 +4,6 @@ MAINTAINER taoge<wenter.wu@daocloud.io>
 ADD run.sh run.sh
 RUN chmod a+x run.sh
 
-VOLUME /config
+VOLUME /data
 
 CMD ["sh","run.sh"]
